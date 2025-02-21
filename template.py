@@ -26,7 +26,8 @@ list_of_files = [
     'main.py',
     "research/research.ipynb",
     "templates/index.html",
-    "app.py"
+    "app.py",
+    ".gitignore"
 ]
 
 

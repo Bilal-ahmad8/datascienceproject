@@ -12,9 +12,9 @@ class DataValidation:
 
             data = pd.read_csv(self.config.unzip_data_dir)
             all_cols = list(data.columns)
-            all_cols.remove('quality')
+            
 
-            all_schema = self.config.all_schema
+            all_schema = self.config.all_schema.keys()
 
             
             for col in all_cols:
